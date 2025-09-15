@@ -294,3 +294,5 @@ Desktop.ini
 # 배포 관련
 staticfiles/
 static_root/
+
+venvs/mysite.pem
