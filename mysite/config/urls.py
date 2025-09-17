@@ -12,3 +12,5 @@ urlpatterns = [
     path('', base_views.index, name='index'),
     path('accounts/', include('allauth.urls')),
 ]
+
+handler404 = 'common.views.page_not_found'

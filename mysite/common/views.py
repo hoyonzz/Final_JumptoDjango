@@ -50,3 +50,7 @@ def edit_profile(request):
     }
 
     return render(request, 'common/edit_profile.html', context)
+
+def page_not_found(request, exception):
+    # 404 page not found
+    return render(request, 'common/404.html', {})
