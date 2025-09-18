@@ -296,3 +296,4 @@ staticfiles/
 static_root/
 
 venvs/mysite.pem
+logs

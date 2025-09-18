@@ -8,7 +8,7 @@ from ..models import Question, Answer, Category, QuestionView
 
 def index(request, category_id=None):
     # pybo 목록 출력
-
+    3/0
     # 입력 인자
     page = request.GET.get('page', '1') # 페이지
     kw = request.GET.get('kw', '') # 검색어
