@@ -1,10 +1,10 @@
-# **Pybo: Django 기반 Q&A 게시판 프로젝트**
+# **Pybo: Django 기반 게시판 프로젝트**
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org) [![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)](https://www.djangoproject.com/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![AWS](https://img.shields.io/badge/AWS%20Lightsail-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/lightsail/)
 
-'점프 투 장고' 교재를 기반으로 Q&A 게시판의 핵심 기능을 구현하며 Django 프레임워크의 동작 원리를 깊이 있게 학습하고, 실무적인 프로젝트 설계와 End-to-End 배포 프로세스까지 직접 경험한 백엔드 포트폴리오 프로젝트입니다.
+'점프 투 장고' 교재를 기반으로 기초부터 실전 배포까지 체계적으로 학습하며 구축한 게시판 웹 애플리 케이션입니다. 실무적인 프로젝트 설계와 End-to-End 배포 프로세스까지 직접 경험한 백엔드 프로젝트입니다.
 
-**🚀 배포된 웹사이트 URL:** `http://<본인의-서버-IP>`
+**🚀 배포된 웹사이트 URL:** `http://13.209.106.188`
 
 ## ✨ 주요 기능
 
