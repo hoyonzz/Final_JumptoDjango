@@ -151,9 +151,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.mysite.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'admin@mysite.com'
-EMAIL_HOST_PASSWORD = '1234'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = 'Pybo admin <no-reply@mysite.com>'
+
 
 # 인증백엔드
 AUTHENTICATION_BACKENDS = [
