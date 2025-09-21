@@ -34,7 +34,7 @@ def index(request, category_id=None):
             num_voter=Count('voter')).order_by('-num_voter', '-create_date')
     elif so == 'popular':
         question_list = Question.objects.annotate(
-            num_answer=Count('answer')).order_by('-num_answer', '-create_date')
+            num_answer=Count('answer')).order_by('-num_answer', '-views', '-create_date')
     else: # recent
         question_list = Question.objects.order_by('-create_date')
 
