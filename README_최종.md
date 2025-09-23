@@ -17,7 +17,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org) [![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)](https://www.djangoproject.com/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![AWS](https://img.shields.io/badge/AWS%20Lightsail-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/lightsail/)
 
-**🚀 실제 운영 중인 웹사이트:** `http://13.209.106.188`  
+**🚀 실제 운영 중인 웹사이트:** [http://13.209.106.188](http://13.209.106.188)  
 **(⬆️ 위 링크를 클릭하여 모든 기능을 직접 테스트해보실 수 있습니다.)**
 
 ***
