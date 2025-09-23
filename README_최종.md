@@ -15,7 +15,7 @@
    - **Deployment:** AWS Lightsail · Gunicorn · Nginx
    - **CI/CD & Logging:** RotatingFileHandler (로깅)
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org) [![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)](https://www.djangoproject.com/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![AWS](https://img.shields.io/badge/AWS%20Lightsail-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/lightsail/)
+
 
 **🚀 실제 운영 중인 웹사이트:** [http://13.209.106.188](http://13.209.106.188)  
 **(⬆️ 위 링크를 클릭하여 모든 기능을 직접 테스트해보실 수 있습니다.)**
@@ -72,13 +72,13 @@ requirements.txt
 | 답변 기능               | 답변 등록 · 수정 · 삭제 · 답변 링크 이동          | ![Image](https://github.com/user-attachments/assets/0fcedf7f-5fc1-42b4-ae1a-3858283a9430)        |
 | 댓글 & 추천 기능        | 질문·답변 댓글, 좋아요(추천)                      | ![Image](https://github.com/user-attachments/assets/8b4cd974-3f78-48d4-b1b4-b930ffecf4a7)
 | 검색 & 정렬 기능        | 질문·답변·글쓴이 검색, 추천·인기·최근순으로 정렬   | ![Image](https://github.com/user-attachments/assets/ecb841c7-e96b-4dcc-a0eb-af7611b32731)  
-| 오류 페이지            | 404 커스텀 템플릿                                  | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a4248f30-8cbc-4b0f-86b4-8948514104c1" />          |
+| 오류 페이지            | 404 커스텀 템플릿                                  | <img alt="Image" src="https://github.com/user-attachments/assets/a4248f30-8cbc-4b0f-86b4-8948514104c1" />          |
 
 ***
 
 ## 🏛️ 시스템 아키텍처
 
-<img width="4200" height="2700" alt="Image" src="https://github.com/user-attachments/assets/cb1790df-e969-4ca1-ab49-85325efd5e58" />
+<img alt="Image" src="https://github.com/user-attachments/assets/cb1790df-e969-4ca1-ab49-85325efd5e58" />
 
 ### 핵심 설계 원칙
 1. **성능 최적화**: Nginx가 정적 파일을 직접 서빙하여 Django 서버 부하 최소화
@@ -90,7 +90,8 @@ requirements.txt
 
 ## 🔍 핵심 코드 하이라이트
 
-### 1. Django Signals를 활용한 프로필 자동 생성  
+### 1. Django Signals를 활용한 프로필 자동 생성
+`User` 모델 생성 시 `post_save` 시그널을 받아, 연결된 `Profile` 객체를 자동으로 생성하여 데이터의 정합성을 보장합니다.
 ```python
 # common/models.py
 @receiver(post_save, sender=User)
