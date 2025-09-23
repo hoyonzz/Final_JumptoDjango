@@ -67,16 +67,18 @@ requirements.txt
 
 | 기능                     | 설명                                              | GIF                            |
 |-------------------------|---------------------------------------------------|--------------------------------------|
-| 회원가입 & 로그인      | Django Auth + django-allauth 연동                  | (![Image](https://github.com/user-attachments/assets/91fdf3d9-3014-453b-b485-29eb938d3c70)    |
-| 게시글 CRUD            | 질문 작성 · 수정 · 삭제 · 목록 조회                | (![Image](https://github.com/user-attachments/assets/ab1632b9-fbb1-46fc-9112-2486c1e14965)        |
-| 답변 기능               | 답변 등록 · 수정 · 삭제 · 답변 링크 이동          | (![Image](https://github.com/user-attachments/assets/0fcedf7f-5fc1-42b4-ae1a-3858283a9430)        |
+| 회원가입 & 로그인      | Django Auth + django-allauth 연동                  | ![Image](https://github.com/user-attachments/assets/91fdf3d9-3014-453b-b485-29eb938d3c70)    |
+| 게시글 CRUD            | 질문 작성 · 수정 · 삭제 · 목록 조회                | ![Image](https://github.com/user-attachments/assets/ab1632b9-fbb1-46fc-9112-2486c1e14965)        |
+| 답변 기능               | 답변 등록 · 수정 · 삭제 · 답변 링크 이동          | ![Image](https://github.com/user-attachments/assets/0fcedf7f-5fc1-42b4-ae1a-3858283a9430)        |
 | 댓글 & 추천 기능        | 질문·답변 댓글, 좋아요(추천)                      | ![Image](https://github.com/user-attachments/assets/8b4cd974-3f78-48d4-b1b4-b930ffecf4a7)
 | 검색 & 정렬 기능        | 질문·답변·글쓴이 검색, 추천·인기·최근순으로 정렬   | ![Image](https://github.com/user-attachments/assets/ecb841c7-e96b-4dcc-a0eb-af7611b32731)  
-| 오류 페이지            | 404 커스텀 템플릿                                  | (<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a4248f30-8cbc-4b0f-86b4-8948514104c1" />          |
+| 오류 페이지            | 404 커스텀 템플릿                                  | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a4248f30-8cbc-4b0f-86b4-8948514104c1" />          |
 
 ***
 
 ## 🏛️ 시스템 아키텍처
+
+<img width="4200" height="2700" alt="Image" src="https://github.com/user-attachments/assets/cb1790df-e969-4ca1-ab49-85325efd5e58" />
 
 ### 핵심 설계 원칙
 1. **성능 최적화**: Nginx가 정적 파일을 직접 서빙하여 Django 서버 부하 최소화
